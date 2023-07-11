@@ -141,6 +141,8 @@ namespace CollectionsMasterConsoleUI
 
             //TODO: Sort the list then print results
             Console.WriteLine("Sorted Evens!!");
+            list.Sort(); 
+            NumberPrinter(list);
             
             Console.WriteLine("------------------");
 
